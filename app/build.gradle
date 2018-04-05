@@ -24,9 +24,14 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+
     compile 'com.android.support:appcompat-v7:27.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.google.code.gson:gson:2.8.2'
     compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'com.android.support:design:27.+'
     testCompile 'junit:junit:4.12'
+    //adding gif to splash page
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.4'
+
 }
